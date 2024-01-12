@@ -1,0 +1,24 @@
+@charset "ISO-8859-1";
+
+h1{
+	text-align: center;
+}
+.container {
+    display: flex;
+    justify-content:center;
+     /* center horizontally */
+     gap:5px;
+    align-items: baseline; /* center vertically */
+    height: 100vh; /* 100% of the viewport height, adjust as needed */
+}
+button:hover {
+  background-color: #45a049;}
+  button{
+	background-color:teal;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  float: inherit;
+}
